@@ -15,7 +15,7 @@ Package.onUse(function(api) {
   api.imply('accounts-base', ['client', 'server']);
 
   api.use('accounts-oauth', ['client', 'server']);
-  api.use('ranjithkumarmv:oauth-aws-cognito', ['client', 'server']);
+  api.use('ranjithkumarmv:oauth-aws-cognito@0.0.1', ['client', 'server']);
 
   api.addFiles('accounts-cognito_login_button.css', 'client');
 
